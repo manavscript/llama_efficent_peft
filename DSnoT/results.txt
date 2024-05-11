@@ -1,0 +1,1176 @@
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0000, ppl: 5.823019027709961
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.348377227783203
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0000, ppl: 5.823019027709961
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0000, ppl: 5.823019027709961
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7998, ppl: 6435.0263671875
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0000, ppl: 32.529640197753906
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 48.55582046508789
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.2998, ppl: 34.310604095458984
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7998, ppl: 139104.71875
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: wanda
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 49.607330322265625
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: 2:4
+sample: 128
+sparsity sanity check 0.5000, ppl: 161.92208862304688
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 52.738582611083984
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 100, update_threshold: 0.02
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 48.58011245727539
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5010, ppl: 9150.3876953125
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3006, ppl: 68.5297622680664
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.8012, ppl: nan
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 59.170711517333984
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3000, ppl: 40.84077835083008
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.2998, ppl: 34.310604095458984
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0999, ppl: 32.57239532470703
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3001, ppl: 34.538246154785156
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 48.55582046508789
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3001, ppl: 34.49660110473633
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 49.63019561767578
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1006, ppl: 38.4875602722168
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1007, ppl: 38.46662521362305
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0156, ppl: 5.82757043838501
+
+model: ../models/smoothquant_smooth_prune_wandads_03
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3000, ppl: 6.082676410675049
+
+model: ../models/smoothquant_smooth_prune_wandads_05
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.388664245605469
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3000, ppl: 35.66944122314453
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 49.811519622802734
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1007, ppl: 32.75832748413086
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3001, ppl: 6.035513401031494
+
+model: ../models/wandads_03
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.2998, ppl: 6.032007694244385
+
+model: ../models/wandads_01
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0999, ppl: 5.834839820861816
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1007, ppl: 5.837759017944336
+
+model: ../models/wandads_05
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.348377227783203
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.374542713165283
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3000, ppl: 6.125156879425049
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5999, ppl: 12.64322280883789
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7998, ppl: 6435.0263671875
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.6999, ppl: 129.41053771972656
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1006, ppl: 5.842665672302246
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0000, ppl: 5.823019027709961
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: sparsegpt
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.571781158447266
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: wanda
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.370632171630859
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5010, ppl: 18.074565887451172
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1003, ppl: 5.906963348388672
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3006, ppl: 6.660423278808594
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.6013, ppl: 2296.54150390625
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5001, ppl: 7.352941036224365
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 122.17521667480469
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 140.81222534179688
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1007, ppl: 32.72338104248047
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3001, ppl: 34.49660110473633
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5001, ppl: 49.0598258972168
+
+model: ../models/smoothquant_smooth_prune_wandads_03
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.3000, ppl: 35.02030563354492
+
+model: ../models/smoothquant_smooth_prune_wandads_05
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 49.997379302978516
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0999, ppl: 32.57239532470703
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 1320.2413330078125
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.1003, ppl: 35.583091735839844
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: sparsegpt
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 39.85923767089844
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: sparsegpt
+without_DSnoT: True
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 39.85923767089844
+
+model: ../models/wandads_03
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.359567165374756
+
+model: ../models/wandads_01
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.2998, ppl: 6.033466339111328
+
+model: ../models/wandads_01
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.0999, ppl: 5.839841842651367
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.367606163024902
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 122.17521667480469
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 140.81222534179688
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 12.9933500289917
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 12.9933500289917
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 22827.294921875
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.582324028015137
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 52.738582611083984
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 52.738582611083984
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 52.738582611083984
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5999, ppl: 12.64322280883789
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5999, ppl: 145.79673767089844
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.6999, ppl: 129.41053771972656
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.6999, ppl: 1397.038330078125
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7998, ppl: 6435.0263671875
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7998, ppl: 139104.71875
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: magnitude
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5010, ppl: 9150.3876953125
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 22827.294921875
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: magnitude
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 172012.046875
+
+model: ../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 152.681884765625
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.6999, ppl: 129.41053771972656
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.6999, ppl: 1397.038330078125
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: sparsegpt
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 7.571781158447266
+
+model: meta-llama/Llama-2-7b-hf
+prune_method: sparsegpt
+without_DSnoT: False
+initial_method: sparsegpt
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.5000, ppl: 39.85923767089844
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 122.17521667480469
+
+model: ../models/wandads_05_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 1320.2413330078125
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 140.81222534179688
+
+model: ../models/wandads_03_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 1291.1328125
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 148.40431213378906
+
+model: ../models/wandads_01_smoothquant
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 1536.1458740234375
+
+model: ../../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 152.681884765625
+
+model: ../../models/smoothquant_smooth
+prune_method: DSnoT
+without_DSnoT: False
+initial_method: wanda
+skip_layer mlp, skip_sub_layer no_skip
+max_cycle_time: 50, update_threshold: 0.1
+pow_of_var_pruning: 1, pow_of_var_regrowing:1.0
+without_same_sign: True
+sparse pattern: unstructured
+sample: 128
+sparsity sanity check 0.7000, ppl: 1322.269287109375
+
